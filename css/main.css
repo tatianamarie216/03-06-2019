@@ -1,15 +1,64 @@
 body {
   background: red;
+  font-family: sans-serif;
 }
 
+h1 {
+  font-size: 1.75em;
+}
+
+.section {
+  padding: 15px 0;
+}
+
+.center {
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+
+
+
+
+
+/* Tablet Styles Start Here */
 @media screen and (min-width: 420px) {
   body {
     background: blue;
   }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  .center {
+    width: 85%;
+  }
+
 }
 
+
+
+
+
+
+/* Desktop Styles Start Here */
 @media screen and (min-width: 1024px) {
   body {
     background: orange;
   }
+
+  h1 {
+    font-size: 3.2em;
+  }
+
+  .center {
+    max-width: 1000px;
+  }
+
 }
